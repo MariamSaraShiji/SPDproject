@@ -1,0 +1,128 @@
+Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
+		Echoes of Humanity	game/options.rpy	15
+		Back	game/screens.rpy	252
+		History	game/screens.rpy	253
+		Skip	game/screens.rpy	254
+		Auto	game/screens.rpy	255
+		Save	game/screens.rpy	256
+		Q.Save	game/screens.rpy	257
+		Q.Load	game/screens.rpy	258
+		Prefs	game/screens.rpy	259
+		Start	game/screens.rpy	300
+		Load	game/screens.rpy	308
+		Preferences	game/screens.rpy	310
+		End Replay	game/screens.rpy	314
+		Main Menu	game/screens.rpy	318
+		About	game/screens.rpy	320
+		Help	game/screens.rpy	325
+		Version [config.version!t]\n	game/screens.rpy	560
+		Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]	game/screens.rpy	566
+		{#file_time}%A, %B %d %Y, %H:%M	game/screens.rpy	644
+		empty slot	game/screens.rpy	644
+		<	game/screens.rpy	664
+		{#auto_page}A	game/screens.rpy	668
+		{#quick_page}Q	game/screens.rpy	671
+		>	game/screens.rpy	677
+		Upload Sync	game/screens.rpy	682
+		Download Sync	game/screens.rpy	686
+		Display	game/screens.rpy	745
+		Window	game/screens.rpy	746
+		Unseen Text	game/screens.rpy	752
+		After Choices	game/screens.rpy	753
+		Transitions	game/screens.rpy	754
+		Text Speed	game/screens.rpy	767
+		Auto-Forward Time	game/screens.rpy	771
+		Music Volume	game/screens.rpy	778
+		Sound Volume	game/screens.rpy	785
+		Test	game/screens.rpy	791
+		Mute All	game/screens.rpy	806
+		The dialogue history is empty.	game/screens.rpy	925
+		Keyboard	game/screens.rpy	993
+		Mouse	game/screens.rpy	994
+		Enter	game/screens.rpy	1010
+		Advances dialogue and activates the interface.	game/screens.rpy	1011
+		Space	game/screens.rpy	1014
+		Advances dialogue without selecting choices.	game/screens.rpy	1015
+		Arrow Keys	game/screens.rpy	1018
+		Navigate the interface.	game/screens.rpy	1019
+		Escape	game/screens.rpy	1022
+		Accesses the game menu.	game/screens.rpy	1023
+		Ctrl	game/screens.rpy	1026
+		Skips dialogue while held down.	game/screens.rpy	1027
+		Tab	game/screens.rpy	1030
+		Toggles dialogue skipping.	game/screens.rpy	1031
+		Page Up	game/screens.rpy	1034
+		Rolls back to earlier dialogue.	game/screens.rpy	1035
+		Page Down	game/screens.rpy	1038
+		Rolls forward to later dialogue.	game/screens.rpy	1039
+		Hides the user interface.	game/screens.rpy	1043
+		Takes a screenshot.	game/screens.rpy	1047
+		Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.	game/screens.rpy	1051
+		Opens the accessibility menu.	game/screens.rpy	1055
+		Left Click	game/screens.rpy	1061
+		Middle Click	game/screens.rpy	1065
+		Right Click	game/screens.rpy	1069
+		Mouse Wheel Up	game/screens.rpy	1073
+		Mouse Wheel Down	game/screens.rpy	1077
+		Right Trigger\nA/Bottom Button	game/screens.rpy	1084
+		Left Trigger\nLeft Shoulder	game/screens.rpy	1088
+		Right Shoulder	game/screens.rpy	1092
+		D-Pad, Sticks	game/screens.rpy	1096
+		Start, Guide, B/Right Button	game/screens.rpy	1100
+		Y/Top Button	game/screens.rpy	1104
+		Skipping	game/screens.rpy	1219
+		Menu	game/screens.rpy	1531
+start_cf7c46a2	s	This is a psychological questionnaire disguised as a journey.	game/script.rpy	19	s "[what]"
+start_f9ae6f80	s	Indulge in the storyline, make your choices, and uncover your own truth.	game/script.rpy	20	s "[what]"
+		Lost	game/script.rpy	26
+		Numb	game/script.rpy	26
+		Determined	game/script.rpy	26
+start_c60d88f5	s	You wake up in a pod. The ship's AI asks: 'How do you feel?'	game/script.rpy	27	s "[what]" nointeract
+		Yes, there has to be.	game/script.rpy	35
+		No, I’m trapped forever.	game/script.rpy	35
+start_5c2a222d	s	Do you believe there’s a way out of this place?	game/script.rpy	36	s "[what]" nointeract
+		Yes, I might find answers there.	game/script.rpy	42
+		No, it’s not worth the risk.	game/script.rpy	42
+start_57232620	s	You receive a distress signal from a distant planet. Do you respond?	game/script.rpy	43	s "[what]" nointeract
+		Yes, it might give me guidance.	game/script.rpy	49
+		No, it's just the past. I must move forward.	game/script.rpy	49
+start_74ae1ebb	s	You find an old journal in the ship’s database. Do you read it?	game/script.rpy	50	s "[what]" nointeract
+		Yes, people can betray you.	game/script.rpy	56
+		No, some connections are worth the risk.	game/script.rpy	56
+start_36600a52	s	A voice echoes: 'Trust is dangerous here.' Do you agree?	game/script.rpy	57	s "[what]" nointeract
+		Yes, I need to move forward.	game/script.rpy	63
+		No, there must be another way.	game/script.rpy	63
+start_ed66e1a4	s	You find a locked door. The AI suggests breaking it open. Do you?	game/script.rpy	64	s "[what]" nointeract
+		Yes, I can’t let go.	game/script.rpy	70
+		No, the past cannot define me.	game/script.rpy	70
+start_52136cee	s	A memory resurfaces—of someone you left behind. Do you dwell on it?	game/script.rpy	71	s "[what]" nointeract
+		No, I feel like a stranger.	game/script.rpy	77
+		Yes, I am still me.	game/script.rpy	77
+start_722ae95c	s	You see your reflection on a shattered screen. Do you recognize yourself?	game/script.rpy	78	s "[what]" nointeract
+		Yes, I could use the help.	game/script.rpy	84
+		No, I must rely on myself.	game/script.rpy	84
+start_d089ff66	s	An AI entity offers to guide you. Do you accept?	game/script.rpy	85	s "[what]" nointeract
+		Yes, I need to know what's happening.	game/script.rpy	91
+		No, it's too dangerous.	game/script.rpy	91
+start_887aaf03	s	A distant explosion shakes the ship. Do you investigate?	game/script.rpy	92	s "[what]" nointeract
+path_dystopia_da5d7451	u	The world you land in is empty. The signals were false hope.	game/script.rpy	108	u "[what]"
+path_dystopia_5c78815b	s	Maybe this was my fate all along.	game/script.rpy	109	s "[what]"
+		Yes, I need shelter.	game/script.rpy	112
+		No, it could be a trap.	game/script.rpy	112
+path_dystopia_67cf0178	s	You walk through a wasteland. You find an abandoned structure. Do you enter?	game/script.rpy	113	s "[what]" nointeract
+		Yes, I must know what it is.	game/script.rpy	119
+		No, it's just my imagination.	game/script.rpy	119
+path_dystopia_4462793a	s	You hear a whisper in the wind. Do you follow it?	game/script.rpy	120	s "[what]" nointeract
+path_dystopia_c273947e	s	The world seems lifeless, but you press on.	game/script.rpy	126	s "[what]"
+path_dystopia_b683f0aa	s	Even in the darkest voids, stars still shine.	game/script.rpy	127	s "[what]"
+path_dystopia_f38c0a4a	s	If you're struggling, you're not alone. There's always someone willing to listen.	game/script.rpy	128	s "[what]"
+path_redemption_8698105f	a	You've made it, Sylus. The distress signal was real.	game/script.rpy	138	a "[what]"
+path_redemption_9098606a	a	You're not alone. You never were.	game/script.rpy	139	a "[what]"
+		Yes, wisdom is power.	game/script.rpy	141
+		No, I make my own path.	game/script.rpy	141
+path_redemption_a60112be	s	You find an old book of philosophy. Do you read it?	game/script.rpy	142	s "[what]" nointeract
+		Yes, it could be my new beginning.	game/script.rpy	148
+		No, I keep moving forward.	game/script.rpy	148
+path_redemption_2d4e7498	s	You see a planet on the horizon. Do you land?	game/script.rpy	149	s "[what]" nointeract
+path_redemption_3bf8870b	s	No matter how lost you feel, there's a path ahead.	game/script.rpy	155	s "[what]"
+path_redemption_621b60ea	s	Talk to someone. Find your light. Keep going.	game/script.rpy	156	s "[what]"

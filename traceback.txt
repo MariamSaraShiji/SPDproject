@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 46, in script
+    if (username == correct_username and password == correct_password) or (username == new_username and password == new_password):
+  File "game/script.rpy", line 46, in <module>
+    if (username == correct_username and password == correct_password) or (username == new_username and password == new_password):
+NameError: name 'new_username' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 46, in script
+    if (username == correct_username and password == correct_password) or (username == new_username and password == new_password):
+  File "C:\CHRIST\2nd sem\SPD\Softwares\renpy\renpy-8.3.3-sdk\renpy\ast.py", line 1843, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\CHRIST\2nd sem\SPD\Softwares\renpy\renpy-8.3.3-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\CHRIST\2nd sem\SPD\Softwares\renpy\renpy-8.3.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 46, in <module>
+    if (username == correct_username and password == correct_password) or (username == new_username and password == new_password):
+NameError: name 'new_username' is not defined
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.3.24111502
+Echoes of Humanity 1.0
+Mon Apr  7 22:40:21 2025
